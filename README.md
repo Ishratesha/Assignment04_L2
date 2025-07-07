@@ -38,7 +38,7 @@ A simple full-stack Library Management System built with:
 
 ## 🌐 Live Demo (Optional)
 
-[Demo Link](#) – Add once deployed
+[https://librihouse.vercel.app/](#) – Add once deployed
 
 ---
 
