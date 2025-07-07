@@ -65,7 +65,7 @@ const BookForm = () => {
             onChange={handleChange}
             placeholder="Enter book title"
             required
-            className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-amber-500"
           />
         </div>
 
@@ -80,7 +80,7 @@ const BookForm = () => {
             onChange={handleChange}
             placeholder="Enter author name"
             required
-            className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-amber-500"
           />
         </div>
 
@@ -93,7 +93,7 @@ const BookForm = () => {
             name="genre"
             value={formData.genre}
             onChange={handleChange}
-            className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-amber-500"
           >
             <option value="FICTION">FICTION</option>
             <option value="NON_FICTION">NON_FICTION</option>
@@ -115,7 +115,7 @@ const BookForm = () => {
             onChange={handleChange}
             placeholder="Enter ISBN"
             required
-            className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-amber-500"
           />
         </div>
 
@@ -130,7 +130,7 @@ const BookForm = () => {
             onChange={handleChange}
             placeholder="Enter description"
             rows={4}
-            className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-amber-500"
           />
         </div>
 
@@ -146,7 +146,7 @@ const BookForm = () => {
             value={formData.copies}
             onChange={handleChange}
             required
-            className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-amber-500"
           />
         </div>
 
@@ -157,7 +157,7 @@ const BookForm = () => {
             type="checkbox"
             checked={formData.available}
             onChange={handleChange}
-            className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
+            className="h-4 w-4 text-amber-600 focus:ring-amber-500 border-gray-300 rounded"
           />
           <label htmlFor="available" className="text-sm font-medium text-gray-700">
             Available
@@ -166,7 +166,7 @@ const BookForm = () => {
 
         <button
           type="submit"
-          className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded transition-colors"
+          className="w-full bg-amber-600 hover:bg-amber-700 text-white font-semibold py-2 rounded transition-colors"
         >
           {isEdit ? 'Update Book' : 'Create Book'}
         </button>

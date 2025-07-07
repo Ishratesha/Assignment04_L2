@@ -75,7 +75,7 @@ const BorrowForm = () => {
           />
         </div>
 
-        <button type="submit" className="btn w-full bg-blue-600 hover:bg-blue-700 text-white">
+        <button type="submit" className="btn w-full bg-amber-600 hover:bg-amber-700 text-white">
           Borrow Book
         </button>
       </form>
