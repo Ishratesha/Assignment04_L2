@@ -1,4 +1,4 @@
-import React from 'react'
+
 import BorrowForm from '../components/BorrowForm'
 
 const BorrowFormPage = () => {
